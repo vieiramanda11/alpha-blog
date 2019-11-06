@@ -12,14 +12,14 @@ The main goal of this project is to build a complete blog application using:
 ## Features
 
 * Users
--> Sign-up / login / logout
--> Show profile page with user's articles
--> Create, update and delete articles
--> Has many posts
+  * Sign-up / login / logout
+  * Show profile page with user's articles
+  * Create, update and delete articles
+  * Has many posts
 
 * Articles 
--> Create, update and delete from owner and administrator
--> Belongs to a user
+  * Create, update and delete from owner and administrator
+  * Belongs to a user
 
 ## Getting started
 
