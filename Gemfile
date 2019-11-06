@@ -19,6 +19,8 @@ gem 'jbuilder',   '2.9.1'
 gem 'bootsnap',   '1.4.4', require: false
 
 group :development, :test do
+  gem 'rspec-rails'
+  gem 'capybara',                 '3.28.0'
   gem 'sqlite3',    '1.4.1'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'hirb'
@@ -32,8 +34,6 @@ group :development do
 end
 
 group :test do
-  gem 'capybara',                 '3.28.0'
-  gem 'selenium-webdriver',       '3.142.3'
   gem 'webdrivers',               '4.1.2'
   gem 'rails-controller-testing', '1.0.4'
   gem 'minitest',                 '5.11.3'
