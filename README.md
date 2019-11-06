@@ -1,24 +1,45 @@
-# README
+# Ruby on Rails  - Girl Tech Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The main goal of this project is to build a complete blog application using:
 
-Things you may want to cover:
+* Ruby on Rails 6.0.0
+* Bootstrap-Sass 3.4.1
 
-* Ruby version
+## Live Version
 
-* System dependencies
+[Heroku](https://girl-tech-blog.herokuapp.com/)
 
-* Configuration
+## Features
 
-* Database creation
+* Users
+-> Sign-up / login / logout
+-> Show profile page with user's articles
+-> Create, update and delete articles
+-> Has many posts
 
-* Database initialization
+* Articles 
+-> Create, update and delete from owner and administrator
+-> Belongs to a user
 
-* How to run the test suite
+## Getting started
 
-* Services (job queues, cache servers, search engines, etc.)
+To get started with the app, clone the repo and then install the needed gems:
 
-* Deployment instructions
+```
+$ bundle install --without production
+```
 
-* ...
+Next, migrate the database:
+
+```
+$ rails db:migrate
+```
+
+You're now ready to run the app in a local server:
+
+```
+$ rails server
+```
+
+For more information, see the
+[The Complete Ruby on Rails Developer Course](https://www.udemy.com/course/the-complete-ruby-on-rails-developer-course/).
