@@ -19,7 +19,7 @@ gem 'jbuilder',   '2.9.1'
 gem 'bootsnap',   '1.4.4', require: false
 
 group :development, :test do
-  gem 'rspec-rails'
+  gem 'rspec-rails', '~> 4.0.0.beta2'
   gem 'capybara',                 '3.28.0'
   gem 'sqlite3',    '1.4.1'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
