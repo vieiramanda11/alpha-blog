@@ -21,6 +21,10 @@ The main goal of this project is to build a complete blog application using:
   * Create, update and delete from owner and administrator
   * Belongs to a user
 
+* Categories
+  * Create and update only from owner
+  * Has_many articles
+
 ## Getting started
 
 To get started with the app, clone the repo and then install the needed gems:
