@@ -15,7 +15,7 @@ The main goal of this project is to build a complete blog application using:
   * Sign-up / login / logout
   * Show profile page with user's articles
   * Create, update and delete articles
-  * Has many posts
+  * Has many articles
 
 * Articles 
   * Create, update and delete from owner and administrator
