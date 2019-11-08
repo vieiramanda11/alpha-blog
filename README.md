@@ -23,7 +23,7 @@ The main goal of this project is to build a complete blog application using:
 
 * Categories
   * Create and update only from administrator
-  * Has_many articles
+  * Has many articles
 
 ## Getting started
 
