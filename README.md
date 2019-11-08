@@ -22,7 +22,7 @@ The main goal of this project is to build a complete blog application using:
   * Belongs to a user
 
 * Categories
-  * Create and update only from owner
+  * Create and update only from administrator
   * Has_many articles
 
 ## Getting started
