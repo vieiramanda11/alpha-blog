@@ -7,6 +7,8 @@
 
 ## Preview
 
+![](girl-tech-blog.gif)
+
 ## 👌 Features
 
 - **Users**
@@ -26,7 +28,7 @@
   
 - **Categories**
   - Create / update / from admnistrator.
-  - Can hamy many articles.
+  - Can have many articles.
   
 ## Install
 
@@ -64,4 +66,4 @@ Run the app in a local server:
 - Github: [@vieiramanda11](https://github.com/vieiramanda11)
 - Twitter: [@mndvr_](https://twitter.com/mndvr_)
 - Linkedin: [Amanda](https://www.linkedin.com/in/amandavieira23/)
-- Email: [amandavieirazevedo@gmail.com]
+- Email: [amandavieirazevedo@gmail.com]()
