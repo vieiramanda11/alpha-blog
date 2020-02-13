@@ -1,53 +1,67 @@
-# Ruby on Rails  - Girl Tech Blog
+<h1 align="center">Welcome to Girl Tech Blog - Ruby on Rails 👋</h1>
 
-The main goal of this project is to build a complete blog application using:
+> In this project I built a RESTful blog with full CRUD functionality. I applied MVC for users, posts and categories. 
 
-* Ruby on Rails 6.0.0
-* Bootstrap-Sass 3.4.1
 
-## Live Version
+### ✨ [Demo](https://girl-tech-blog.herokuapp.com/)
 
-[Heroku](https://girl-tech-blog.herokuapp.com/)
+## Preview
 
-## Features
+## 👌 Features
 
-* Users
-  * Sign-up / login / logout
-  * Show profile page with user's articles
-  * Create, update and delete articles
-  * Has many articles
+- **Users**
+  - Sign-up / login / logout.
+  - Show the profile page.
+  - Create / update / delete articles.
+  - Can have many articles.
 
-* Articles 
-  * Create, update and delete from owner and administrator
-  * Belongs to a user
+- **Articles**
+  - Create, update and delete from owner and administrator.
+  - Show in chronological update order.
+  - Belongs to a User.
 
-* Categories
-  * Create and update only from administrator
-  * Has many articles
+- **Comments**
+  - Create / update / delete from owner.
+  
+  
+- **Categories**
+  - Create / update / from admnistrator.
+  - Can hamy many articles.
+  
+## Install
 
-## Getting started
+Clone the repo and then install the needed gems:
 
-To get started with the app, clone the repo and then install the needed gems:
-
+```console
+ bundle install --without production
 ```
-$ bundle install --without production
+
+Create and Migrate the database:
+
+```console
+ rails db:migrate
 ```
 
-Next, migrate the database:
+## Usage
 
-```
-$ rails db:migrate
-```
 Run the test suite to verify that everything is working correctly:
 
-```
-$ rspec
-```
-If the test passes, you'll be ready to run the app in a local server:
-
-```
-$ rails server
+```console
+ rspec
 ```
 
-For more information, see the
-[The Complete Ruby on Rails Developer Course](https://www.udemy.com/course/the-complete-ruby-on-rails-developer-course/).
+Run the app in a local server:
+
+```console
+ rails server
+```
+
+
+## Author
+
+👤 **Amanda Vieira**
+
+- Github: [@vieiramanda11](https://github.com/vieiramanda11)
+- Twitter: [@mndvr_](https://twitter.com/mndvr_)
+- Linkedin: [Amanda](https://www.linkedin.com/in/amandavieira23/)
+- Email: [amandavieirazevedo@gmail.com]
